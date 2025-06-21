@@ -1,4 +1,8 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
+import project1 from "../assets/Project1.png"
+import project2 from "../assets/Project2.png"
+import project3 from "../assets/Project3.png"
+
 
 
 const projects = [
@@ -6,7 +10,7 @@ const projects = [
         id:1,
         Title:"Ecommerce page",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, recusandae!",
-        image:"/ProjectSS/Project1.png",
+        image:project1,
         tags:["React","Tailwind CSS", "Material UI"],
         demoUrl:"#",
         githubUrl:"#",
@@ -15,7 +19,7 @@ const projects = [
         id:2,
         Title:"Ecommerce Dashboard",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, recusandae!",
-        image:"/ProjectSS/Project2.png",
+        image:project2,
         tags:["HTML/CCS","Tailwind CSS", "Material UI"],
         demoUrl:"#",
         githubUrl:"#",
@@ -24,7 +28,7 @@ const projects = [
         id:3,
         Title:"Restaurent page",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, recusandae!",
-        image:"/ProjectSS/Project3.png",
+        image:project3,
         tags:["Next.js","Tailwind CSS", "Material UI"],
         demoUrl:"#",
         githubUrl:"#",
